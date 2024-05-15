@@ -1,0 +1,11 @@
+# Create a github repo and clone it
+* WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!   
+  * ssh-keygen -R github.com
+  * After this operation, reconnect to github and SSH will ask to recognize the new RSA key fingerprint. 
+  * Type “yes,” if you see one of the following public key fingerprints:
+    * RSA: SHA256:uNiVztksCsDhcc0u9e8BujQXVUpKZIDTMczCvj3tD2s
+    * DSA — Deprecated: SHA256:br9IjFspm1vxR3iA35FWE+4VTyz1hYVLIE2t1/CeyWQ
+    * ECDSA: SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM
+    * Ed25519: SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU
+* ls command to list 
+* git remote -v
