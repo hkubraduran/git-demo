@@ -19,3 +19,11 @@
    *  to view the history 
 * git push
   * Synchronize the local repo with the remote one
+* If we do some changes directly on github, we need to synchronize the remote repo with the local one 
+  * git fetch:simply synchronizes two repositories, but it does not add the new content of the file in the file system.
+  * git merge: 
+  * git pull: combined command of git fetch and git merge
+  * rm -f .git/index.lock
+    * Error: Another git process seems to be running in this repository, e.g.an editor opened by 'git commit'.
+  * git stash push --include-untracked
+    * If you want remove all local changes - including files that are untracked by git - from your working copy, simply stash them:
