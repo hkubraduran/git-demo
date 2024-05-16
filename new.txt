@@ -9,3 +9,13 @@
     * Ed25519: SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU
 * ls command to list 
 * git remote -v
+* Create a file and push to github
+* git status 
+  * Tells the branch you are working 
+  * Shows untracked files and tells what to do
+* git add file_name.extension
+*  git commit -m "add first 2 lines in the song"
+*  git log
+   *  to view the history 
+* git push
+  * Synchronize the local repo with the remote one
